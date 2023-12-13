@@ -6,11 +6,11 @@
     </div>
     <div
       v-for="question in questions"
-      :key="question.q"
+      :key="question.question"
       class="single-question"
     >
       <div class="question">
-        {{ question.q }}
+        {{ question.question }}
       </div>
       <div class="answers">
           <div
